@@ -1,7 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Input } from '@signozhq/input';
-import { Button } from '@signozhq/ui';
-import { Callout } from '@signozhq/ui';
+import { Button, Callout, Input } from '@signozhq/ui';
 import { Form, Input as AntdInput, Typography } from 'antd';
 import logEvent from 'api/common/logEvent';
 import signUpApi from 'api/v1/register/post';
